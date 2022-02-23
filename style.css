@@ -1,0 +1,94 @@
+body{
+    font-family:Source Sans Pro;
+}
+.top-section{
+    display: flex;
+    
+}
+.first-half{
+    width: 70%;
+    margin-top: 50px;
+}
+.first-half h1{
+    border-left: 3px solid;
+    border-image: linear-gradient(orange,purple);
+    border-image-slice:1;
+}
+.second-half img{
+    width: 100%;
+    height: 300px;
+
+}
+.line-color{
+    color: rgb(221, 191, 20);
+}
+.anchor-style{
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(rgb(233, 64, 64),rgb(233, 56, 209));
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.mission-area{
+    display: flex;
+}
+.mission{
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.mission img{
+    width: 100px;
+}
+.middle-section h1{
+    text-align: center;
+}
+.first{
+    background-color: rgb(161, 204, 204);
+}
+.second{
+    background-color: lightpink;
+}
+.third{
+    background-color: lightgoldenrodyellow;
+}
+.third-section{
+    display: flex;
+    margin-top: 50px;
+}
+.first-part{
+    width: 60%;
+    margin-right: 30px;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.first-part img{
+    width: 100%;
+    height: 200px;
+}
+.fourth-part{
+    display: flex;
+    margin-top: 50px;
+}
+.fourth-details{
+    width: 80%;
+    margin-right: 30px;
+}
+.fourth{
+    background-image: url(images/shapes/shape-1.png);
+}
+.fourth img{
+    width: 200px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+}
+.footer h1{
+    font-family: Dancing Script;
+}
